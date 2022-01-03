@@ -1,8 +1,6 @@
 body{
   background-color: black;
   font-family: "PT sans", "Playfair Display" , sans-serif;
-  max-width: 1920px;
-  width: 100%;
   margin: 0 auto;
 }
 a{
