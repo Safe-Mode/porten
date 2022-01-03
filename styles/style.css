@@ -38,8 +38,6 @@ a{
 }
 
 .page-header-bottom{
-    width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
     margin-top: 15px;
     display: flex;
