@@ -1,0 +1,96 @@
+body{
+  background-color: black;
+  font-family: "PT sans", "Playfair Display" , sans-serif;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+
+.work-time{
+  color:white;
+  font-family: "PT sans";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+
+.phone-number{
+  color:white;
+  font-family: "PT sans";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.page-header-top{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-login{
+  color: white;
+  font-family: "PT sans";
+  font-weight: 400;
+}
+
+.page-header-bottom{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F0F0F;
+}
+
+.page-header-container{
+  width: 100%;
+  max-width: 1400px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.porten-icon{
+  padding-top: 25px;
+}
+
+.nav{
+  padding: 40px 20px;
+  padding-top: 20px;
+  background-color: #0F0F0F;
+
+}
+
+.nav-text{
+  color: white;
+  font-family: "PT sans";
+  font-weight: 400;
+}
+
+.navigation{
+  padding-top: 23px;
+  margin-left: 833px
+}
+
+.nav:hover{
+  color: #fff;
+	background: rgb(177, 176, 176);
+}
+
+.cart{
+  margin: auto;
+}
+
+
+
+
+
+
