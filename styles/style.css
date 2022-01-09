@@ -1,61 +1,49 @@
 body{
   background-color: black;
   font-family: "PT sans", "Playfair Display" , sans-serif;
-  max-width: 1920px;
-  width: 100%;
   margin: 0 auto;
 }
+
 a{
   text-decoration: none;
 }
 
-.work-time{
-  color:white;
-  font-family: "PT sans";
-  font-weight: 400;
-  font-size: 12px;
+a:hover,
+a:focus{
+  text-decoration:underline;
 }
 
-
-
-.phone-number{
-  color:white;
-  font-family: "PT sans";
-  font-weight: 400;
+.page-header-top a{
+  color: #969696;
   font-size: 12px;
-}
-
-.page-header-top{
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
 
-.register-login{
-  color: white;
-  font-family: "PT sans";
-  font-weight: 400;
+.register-login-icon{
+  line-height: 16px;
+  align-items: center;
 }
 
 .page-header-bottom{
-    width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
-    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     background-color: #0F0F0F;
 }
 
+.page-header-bottom svg{
+  color: #969696;
+}
+
+
 .page-header-container{
-  width: 100%;
-  max-width: 1400px;
-  height: 80px;
   margin: 0 auto;
+  width: 1400px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+}
+.page-header-container a{
+  color: #969696;
 }
 
 .porten-icon{
@@ -66,13 +54,6 @@ a{
   padding: 40px 20px;
   padding-top: 20px;
   background-color: #0F0F0F;
-
-}
-
-.nav-text{
-  color: white;
-  font-family: "PT sans";
-  font-weight: 400;
 }
 
 .navigation{
@@ -81,13 +62,48 @@ a{
 }
 
 .nav:hover{
-  color: #fff;
-	background: rgb(177, 176, 176);
+	background: rgb(75, 72, 72);
 }
 
 .cart{
   margin: auto;
 }
+.data-list{
+  color: #969696;
+  list-style: none;
+  display: flex;
+  line-height: 16px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.text-list-number{
+  margin-left: 16px;
+}
+
+.text-list{
+  margin-left: 16px;
+}
+
+.text-list::before{
+  content: "|";
+  margin-right  : 10px;
+}
+
+.phone-number::before{
+  content: none;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.data-list-container{
+  line-height: 16px;
+}
+
 
 
 
