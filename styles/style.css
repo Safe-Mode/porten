@@ -1,7 +1,7 @@
 body{
   background-color: black;
   font-family: "PT sans", "Playfair Display" , sans-serif;
-  margin: 0 auto;
+
 }
 
 a{
@@ -24,10 +24,15 @@ a:focus{
   align-items: center;
 }
 
+
+.register-login{
+  padding-left: 12px;
+}
+
 .page-header-bottom{
-    margin: 0 auto;
+
     display: flex;
-    justify-content: space-between;
+
     background-color: #0F0F0F;
 }
 
@@ -35,10 +40,10 @@ a:focus{
   color: #969696;
 }
 
-
 .page-header-container{
   margin: 0 auto;
-  width: 1400px;
+  max-width: 1400px;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -47,27 +52,24 @@ a:focus{
 }
 
 .porten-icon{
-  padding-top: 25px;
+  align-self: center;
+  margin-right: auto;
 }
 
 .nav{
-  padding: 40px 20px;
-  padding-top: 20px;
+  padding: 31px 20px;
   background-color: #0F0F0F;
 }
 
 .navigation{
-  padding-top: 23px;
-  margin-left: 833px
+  display: inline-flex;
+  list-style: none;
 }
 
 .nav:hover{
 	background: rgb(75, 72, 72);
 }
 
-.cart{
-  margin: auto;
-}
 .data-list{
   color: #969696;
   list-style: none;
@@ -75,6 +77,7 @@ a:focus{
   line-height: 16px;
   font-size: 12px;
   align-items: center;
+
 }
 
 .text-list-number{
@@ -92,17 +95,29 @@ a:focus{
 
 .phone-number::before{
   content: none;
+  box-sizing: border-box;
 }
 
 .container{
+  padding: 0 16px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+}
+.phoneicon{
+  padding-right: 17px;
 }
 
-.data-list-container{
-  line-height: 16px;
+.page-header-top-container{
+  max-width: 1132px;
+  margin: 0 auto;
 }
+
+.nav-list{
+  box-sizing: content-box;
+}
+
+
 
 
 
