@@ -8,10 +8,6 @@ a{
   text-decoration: none;
 }
 
-a:hover,
-a:focus{
-  text-decoration:underline;
-}
 
 .page-header-top a{
   color: #969696;
@@ -98,11 +94,22 @@ a:focus{
   box-sizing: border-box;
 }
 
+.phone-number:hover,
+.phone-number:focus{
+  text-decoration: underline;
+}
+
+.register-login:hover,
+.register-login:focus{
+  text-decoration: underline;
+}
+
 .container{
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 .phoneicon{
   padding-right: 17px;
@@ -115,6 +122,7 @@ a:focus{
 
 .nav-list{
   box-sizing: content-box;
+  padding: 16px;
 }
 
 
