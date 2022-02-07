@@ -26,25 +26,26 @@ a{
 }
 
 .page-header-bottom{
-
     display: flex;
-
     background-color: #0F0F0F;
 }
 
 .page-header-bottom svg{
+  color: #ffff;
+}
+
+.porten-icon-svg :hover,
+.porten-icon-svg :focus{
   color: #969696;
 }
 
-.page-header-container{
-  margin: 0 auto;
-  max-width: 1400px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+.cart-icon :hover,
+.cart-icon :focus{
+  color:#969696
 }
+
 .page-header-container a{
-  color: #969696;
+  color: #ffff;
 }
 
 .porten-icon{
@@ -55,10 +56,17 @@ a{
 .nav{
   padding: 31px 20px;
   background-color: #0F0F0F;
+  display: block;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
 }
 
 .navigation{
-  display: inline-flex;
+  margin-right: 40px;
+  display: flex;
   list-style: none;
 }
 
@@ -76,9 +84,6 @@ a{
 
 }
 
-.text-list-number{
-  margin-left: 16px;
-}
 
 .text-list{
   margin-left: 16px;
@@ -107,29 +112,25 @@ a{
 .container{
   padding: 0 16px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
+
 }
 .phoneicon{
   padding-right: 17px;
 }
 
 .page-header-top-container{
-  max-width: 1132px;
+  max-width: 1144px;
   margin: 0 auto;
+  display: flex;
+  padding: 14px 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-list{
-  box-sizing: content-box;
-  padding: 16px;
+.page-header-container{
+  margin: 0 auto;
+  max-width: 1144px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
-
-
-
-
-
-
-
-
-
