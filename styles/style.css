@@ -1,0 +1,132 @@
+body{
+  background-color: black;
+  font-family: "PT sans", "Playfair Display" , sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.page-header-top a{
+  color: #969696;
+  font-size: 12px;
+  display: flex;
+}
+
+.register-login-icon{
+  line-height: 16px;
+  align-items: center;
+}
+
+
+.register-login{
+  padding-left: 12px;
+}
+
+.page-header-bottom{
+    display: flex;
+    background-color: #0F0F0F;
+}
+
+.page-header-bottom svg{
+  color: #ffff;
+}
+
+.porten-icon-svg :hover,
+.porten-icon-svg :focus{
+  color: #969696;
+}
+
+.cart-icon :hover,
+.cart-icon :focus{
+  color:#969696
+}
+
+.page-header-container a{
+  color: #ffff;
+}
+
+.porten-icon{
+  align-self: center;
+  margin-right: auto;
+}
+
+.nav{
+  padding: 31px 20px;
+  background-color: #0F0F0F;
+  display: block;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navigation{
+  margin-right: 40px;
+  display: flex;
+  list-style: none;
+}
+
+.nav:hover{
+	background: rgb(75, 72, 72);
+}
+
+.data-list{
+  color: #969696;
+  list-style: none;
+  display: flex;
+  line-height: 16px;
+  font-size: 12px;
+  align-items: center;
+
+}
+
+.text-list{
+  margin-left: 16px;
+}
+
+.text-list::before{
+  content: "|";
+  margin-right  : 10px;
+}
+
+.phone-number::before{
+  content: none;
+  box-sizing: border-box;
+}
+
+.phone-number:hover,
+.phone-number:focus{
+  text-decoration: underline;
+}
+
+.register-login:hover,
+.register-login:focus{
+  text-decoration: underline;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1144px;
+  width: 100%;
+  padding: 0px 16px;
+}
+.phoneicon{
+  padding-right: 17px;
+}
+
+.page-header-top-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+
+.page-header-container{
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
