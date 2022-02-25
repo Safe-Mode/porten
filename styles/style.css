@@ -1,7 +1,6 @@
 body{
   background-color: black;
   font-family: "PT sans", "Playfair Display" , sans-serif;
-
 }
 
 a{
@@ -34,8 +33,8 @@ a{
   color: #ffff;
 }
 
-.porten-icon-svg :hover,
-.porten-icon-svg :focus{
+.porten-icon :hover,
+.porten-icon :focus{
   color: #969696;
 }
 
@@ -96,8 +95,8 @@ ul{
 .phone-number::before{
   content: none;
   box-sizing: border-box;
-}
 
+}
 .phone-number:hover,
 .phone-number:focus{
   text-decoration: underline;
@@ -128,5 +127,44 @@ ul{
 .page-header-container{
   display: flex;
   align-items: center;
-  padding: 0 16px;
+}
+
+.search-box{
+  background: #0F0F0F;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-btn{
+  color:#0F0F0F;
+  width: 40px;
+  border-radius: 50%;
+  background: #0F0F0F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  float: right;
+}
+
+.search-box:hover
+>.search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
+  width: 0px;
+}
+
+.cart{
+  margin-right: 20px;
 }
