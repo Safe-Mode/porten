@@ -133,8 +133,8 @@ ul{
 
 
 .search-box{
-  width: fit-content;
-  height: fit-content;
+  width: auto;
+  height: 100%;
   position: relative;
 }
 
@@ -179,7 +179,7 @@ transform: translateY(-50%);
 
 .search-txt:focus{
   width: 290px;
-outline: 0;
+  outline: 0;
 }
 
 .form-search-box{
@@ -190,7 +190,7 @@ bottom: 0;
 overflow: hidden;
 background-color: #0F0F0F;
 border-radius: 30px;
-transform: translate(3%,50%);
+top:0;
 }
 
 
