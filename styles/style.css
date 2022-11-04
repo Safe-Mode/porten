@@ -203,3 +203,49 @@ border-radius: 30px;
 opacity: 0;
 transition: opacity .4s;
 }
+
+.promo-container{
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border: 4px solid #FFFFFF;
+}
+
+.promo {
+  margin: 0 auto;
+}
+
+.promo span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'PT Sans';
+}
+
+.promo-div {
+  height: 810px;
+  padding-top: 160px;
+  background-image: url(/images/backgroun-promo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.promo-div p {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 730px;
+  padding-top:80px;
+}
