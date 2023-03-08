@@ -218,7 +218,7 @@ transition: opacity .4s;
   margin: 0 auto;
 }
 
-.promo span {
+.promo-span {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -228,8 +228,20 @@ transition: opacity .4s;
   font-family: 'PT Sans';
 }
 
+hr:before{
+  width:179px;
+}
+
+.promo-span::before{
+  content:"";
+  display: block;
+  width: 179px;
+  border-top:1px solid #fcf8f8;
+  margin: 8px 0;
+}
+
 .promo {
-  min-height: 810px;
+  min-height: 820px;
   padding-top: 160px;
   background-image: url(../images/backgroun-promo.png);
   background-repeat: no-repeat;
@@ -249,5 +261,6 @@ transition: opacity .4s;
   text-transform: uppercase;
   margin: 0 auto;
   max-width: 730px;
-  padding-top:80px;
+  margin-top:80px;
 }
+
