@@ -8,6 +8,9 @@ a{
   text-decoration: none;
 }
 
+h5{
+  margin: 0px;
+}
 
 .page-header-top a{
   color: #969696;
@@ -46,6 +49,7 @@ a{
 
 .page-header-container a{
   color: #ffff;
+  transition: 0.5s;
 }
 
 .porten-icon{
@@ -264,3 +268,123 @@ hr:before{
   margin-top:80px;
 }
 
+.new-season{
+  color: #fff;
+  margin-top: 93px;
+  max-width: 1040px;
+  width: 100%;
+}
+
+.season-20{
+  font-size: 36px;
+  text-align: center;
+  font-family: "Playfair Display";
+}
+
+.season-20-container{
+  width: 100%;
+  max-width: 376px;
+  margin: 0 auto;
+}
+
+.season-20-container::after{
+  content:"";
+  display: block;
+  width: 179px;
+  border-top:1px solid #fcf8f8;
+  margin: 0 auto;
+}
+
+.watch{
+  width: 260px;
+  height: 325px;
+  background-color:#191B1C ;
+  align-items: center;
+  display: flex;
+}
+
+.watch img{
+  margin: 0 auto;
+}
+
+.container-watch{
+  width: 100%;
+  max-width: 880px;
+  height: 405px;
+  display: grid;
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+}
+
+.container-watch:first-child{
+  padding-left: 80px;
+}
+
+.new-collection{
+  background: url(../images/man-siting.png);
+  width: 100%;
+  max-width: 880px;
+  height: 730px;
+  margin-left: auto;
+}
+
+.collecions{
+  display: flex;
+}
+
+.new-collection-div{
+  margin-top: 429px;
+
+}
+
+.new-collection-div h3{
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-family: "Playfair Display";
+}
+
+.catalog-text{
+  margin: 0 auto;
+  color: aliceblue;
+font-size: 18px;
+font-family: "PT sans";
+font-weight: 400;
+margin: auto;
+}
+
+.watch-div{
+  font-family: "Playfair Display";
+  color: #fff;
+}
+
+.catalog-a{
+  margin: 0 auto;
+  border: 1px solid #FFFFFF;
+  width: 138px;
+  height: 47px;
+  display: flex;
+}
+
+.catalog-a:hover,
+.catalog-a:focus{
+  background-color: #bdbdbd48;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.new-collection-text::after{
+  content:"";
+  display: block;
+  width: 120px;
+  border-top:1px solid #fcf8f8;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
